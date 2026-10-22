@@ -298,11 +298,11 @@
   "signals": [
     {"id": "HIGHLANDER_ALT_DUTY_CYCLE", "path": "Engine", "fmt": { "len": 16, "max": 399, "div": 164, "unit": "percent" }, "name": "Alternator output duty cycle"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1620"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1620"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_AT_LOCK_UP_STATE", "path": "Transmission", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Lock up state"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1621"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1621"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_GEAR_700", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
@@ -310,7 +310,7 @@
   "signals": [
     {"id": "HIGHLANDER_TRANS_SHIFT_ST_RAT", "path": "Transmission", "fmt": { "len": 16, "max": 15.999, "mul": 5333, "div": 21845000, "unit": "scalar" }, "name": "Transmission shift state ratio"}
   ]},
-{ "hdr": "700", "rax": "708", "cmd": {"22": "1627"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "700", "rax": "708", "cmd": {"22": "1627"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ATF_T_PAN_V3", "path": "Transmission", "fmt": { "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, pan var.3", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -426,7 +426,7 @@
   "signals": [
     {"id": "HIGHLANDER_TRANS_SHIFT_ST_RAT_701", "path": "Transmission", "fmt": { "len": 16, "max": 15.999, "mul": 5333, "div": 21845000, "unit": "scalar" }, "name": "Transmission shift state ratio"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2021], "from": 2023 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "1627"}, "freq": 5, "dbgfilter": { "to": 2017, "years": [2021, 2023], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_TF1_PAN", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission fluid pan temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -434,7 +434,7 @@
   "signals": [
     {"id": "HIGHLANDER_TF2_CONV", "path": "Engine", "fmt": { "len": 16, "max": 350, "min": -40, "mul": 0.00703125, "add": -40, "unit": "fahrenheit" }, "name": "Transmission fluid post-converter temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "701", "rax": "709", "cmd": {"22": "162B"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021], "from": 2023 },
+{ "hdr": "701", "rax": "709", "cmd": {"22": "162B"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2026 },
   "signals": [
     {"id": "HIGHLANDER_ATF_THERMAL_DEGRAD_EST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Automatic transmission fluid thermal degradation estimate"}
   ]},
